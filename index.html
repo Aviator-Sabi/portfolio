@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sohaib Ellahi - Portfolio</title>
+    <meta name="description" content="This is Sohaib Ellahi's portfolio containing his projects, blog posts, resume and contact information.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1 class="name">Muhammad Sohaib Ellahi</h1>
+            <p class="subtitle">IT Systems and Networks Technician</p>
+        </header>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Left Panel - 3D Card -->
+            <div class="card-panel">
+                <div class="card-wrapper">
+                    <div class="card">
+                        <img src="img/Sohaib.png" alt="Sohaib Ellahi" class="profile-image">
+                    </div>
+                    <div class="card-label">[Card]</div>
+                </div>
+            </div>
+
+            <!-- Right Panel - Terminal -->
+            <div class="terminal-panel">
+                <div class="terminal">
+                    <!-- Command Menu -->
+                    <div class="command-menu">
+                        help | about | projects | skills | experience | contact | education | sudo | clear
+                    </div>
+
+                    <!-- Terminal Output -->
+                    <div class="terminal-output" id="terminal-output">
+                        <div class="command-block">
+                            <div class="command-line">
+                                <span class="prompt">sohaib@portfolio:~$</span>
+                                <span>welcome</span>
+                            </div>
+                            <div class="response">Hi, I'm Muhammad Sohaib Ellahi, a IT Systems and Networks Technician.
+Welcome to my interactive portfolio terminal!
+Type 'help' to see available commands.</div>
+                        </div>
+                    </div>
+
+                    <!-- Terminal Input -->
+                    <div class="terminal-input">
+                        <span class="prompt">sohaib@portfolio:~$</span>
+                        <div class="input-wrapper">
+                            <span id="input-display"></span>
+                            <span class="cursor"></span>
+                            <input type="text" id="terminal-input" autocomplete="off" autofocus>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <span>muhammadsohaibellahi@gmail.com</span>
+            <span id="timestamp"></span>
+        </footer>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
