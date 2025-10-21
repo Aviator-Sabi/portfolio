@@ -87,18 +87,6 @@ body {
     filter: grayscale(100%);
 }
 
-.card-label {
-    position: absolute;
-    bottom: 1rem;
-    right: 1rem;
-    font-size: 0.75rem;
-    color: #22c55e;
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 0.25rem 0.5rem;
-    border-radius: 4px;
-    z-index: 10;
-}
-
 /* Terminal Panel */
 .terminal-panel {
     width: 60%;
